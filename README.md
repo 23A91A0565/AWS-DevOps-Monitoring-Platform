@@ -32,17 +32,22 @@ app.js               -> Node.js application
 package.json         -> Dependencies
 ```
 
-## Documentation
+## 📄 Documentation
 
-The following documents are available in the `docs` folder:
+The complete project documentation is available in the `docs` folder.
 
-- Final Report
+- Final Report (PDF)
+
+The report includes:
+- Git Repository
 - Deployment Guide
 - Architecture Diagram
-- Security Summary
-- Monitoring Screenshots
+- CI/CD Pipeline Configuration
+- Monitoring & CloudWatch Screenshots
 - Load Testing Report
-- Demo Video Link
+- Security Summary
+- Implementation Screenshots
+- Conclusion
 
 ## GitHub Repository
 
