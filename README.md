@@ -142,7 +142,7 @@ git clone https://github.com/GoliPavan888/aws-devops-monitoring-platform.git
 ### Navigate to Project
 
 ```bash
-cd devops-technical-assignment
+cd aws-devops-monitoring-platform
 ```
 
 ### Install Dependencies
