@@ -1,54 +1,192 @@
-# DevOps Technical Assignment
+# 🚀 AWS DevOps Monitoring Platform
 
-## Project Overview
-This project demonstrates the deployment of a production-like Node.js web application on AWS Free Tier using DevOps best practices.
+A production-style DevOps monitoring platform deployed on AWS EC2 with automated CI/CD using GitHub Actions. This project demonstrates cloud deployment, infrastructure automation, real-time system monitoring, application management, and DevOps best practices using AWS Free Tier services.
 
-## Technologies Used
-- AWS EC2
-- Amazon S3
-- Amazon CloudWatch
-- IAM
-- GitHub Actions
-- Node.js
-- Express.js
-- PM2
-- Nginx
-- k6
+---
 
-## Features
-- Automated CI/CD using GitHub Actions
-- Node.js application deployment on EC2
-- Application backup using Amazon S3
-- CloudWatch monitoring and alarms
-- IAM least privilege security
-- Load testing using k6
+## ✨ Features
 
-## Repository Structure
+- 🚀 Automated CI/CD pipeline using GitHub Actions
+- ☁️ Deployment on AWS EC2 (Ubuntu)
+- 🌐 Nginx Reverse Proxy configuration
+- ⚙️ PM2 Process Management
+- 📊 Real-time Monitoring Dashboard
+- ❤️ Health Check API
+- 💾 Automated Amazon S3 Backup
+- 📈 Amazon CloudWatch Monitoring & Alarms
+- 🔐 IAM Least Privilege Security
+- 🧪 Load Testing using k6
+- 📦 Live Deployment Information
+- 💻 Real-time CPU, Memory, Disk & Uptime Monitoring
 
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Cloud | AWS EC2, Amazon S3, Amazon CloudWatch, IAM |
+| Backend | Node.js, Express.js |
+| DevOps | GitHub Actions, PM2, Nginx |
+| Monitoring | System Information API, CloudWatch |
+| Testing | k6 |
+| Version Control | Git & GitHub |
+
+---
+
+## 📂 Project Structure
+
+```text
+devops-technical-assignment
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── data/
+│   └── deployment.json
+│
+├── docs/
+│   └── Final_Report.pdf
+│
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── dashboard.js
+│   └── index.html
+│
+├── app.js
+├── package.json
+├── package-lock.json
+└── README.md
 ```
-.github/workflows/   -> GitHub Actions pipeline
-docs/                -> Project documentation
-app.js               -> Node.js application
-package.json         -> Dependencies
+
+---
+
+## 📊 Monitoring Dashboard
+
+The dashboard provides real-time information including:
+
+- 🖥️ Hostname
+- 💻 Operating System
+- ⚡ CPU Usage
+- 🧠 Memory Usage
+- 💽 Disk Usage
+- ⏱️ System Uptime
+- 🚀 Deployment Details
+- ⚙️ PM2 Process Status
+- ❤️ Application Health
+- ☁️ AWS Services Overview
+
+---
+
+## 🔄 CI/CD Workflow
+
+```text
+Developer
+     │
+     ▼
+Push Code to GitHub
+     │
+     ▼
+GitHub Actions
+     │
+     ▼
+SSH into AWS EC2
+     │
+     ▼
+git pull
+     │
+     ▼
+npm install
+     │
+     ▼
+PM2 Restart
+     │
+     ▼
+Nginx
+     │
+     ▼
+Production Application
 ```
 
-## 📄 Documentation
+---
 
-The complete project documentation is available in the `docs` folder.
+## 📚 Documentation
 
-- Final Report (PDF)
+The **docs/** folder contains:
 
-The report includes:
-- Git Repository
 - Deployment Guide
 - Architecture Diagram
-- CI/CD Pipeline Configuration
-- Monitoring & CloudWatch Screenshots
-- Load Testing Report
-- Security Summary
-- Implementation Screenshots
-- Conclusion
+- GitHub Actions Workflow
+- CloudWatch Configuration
+- S3 Backup Configuration
+- IAM Security Configuration
+- Load Testing Results
+- Deployment Screenshots
+- Final Project Report
 
-## GitHub Repository
+---
 
-https://github.com/GoliPavan888/devops-technical-assignment
+
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/GoliPavan888/aws-devops-monitoring-platform.git
+```
+
+### Navigate to Project
+
+```bash
+cd devops-technical-assignment
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Application
+
+```bash
+npm start
+```
+
+Open your browser:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 📌 Future Improvements
+
+- Docker Containerization
+- Kubernetes Deployment
+- Terraform Infrastructure as Code
+- Grafana Dashboard Integration
+- Prometheus Metrics Collection
+- HTTPS using SSL/TLS
+- Multi-Environment Deployment
+
+---
+
+## 👨‍💻 Author
+
+**Pavan Kumar Goli**
+
+B.Tech Computer Science & Engineering  
+AWS Certified Solutions Architect – Associate  
+AWS Certified Developer – Associate  
+
+**Skills:** AWS • DevOps • Linux • Docker • GitHub Actions • Node.js • CI/CD
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star.
