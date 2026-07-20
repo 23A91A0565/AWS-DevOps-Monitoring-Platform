@@ -179,11 +179,7 @@ http://localhost:3000
 
 ## 👨‍💻 Author
 
-**Pavan Kumar Goli**
-
-B.Tech Computer Science & Engineering  
-AWS Certified Solutions Architect – Associate  
-AWS Certified Developer – Associate  
+**Phani Kumar**
 
 **Skills:** AWS • DevOps • Linux • Docker • GitHub Actions • Node.js • CI/CD
 
