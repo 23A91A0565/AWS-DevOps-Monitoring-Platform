@@ -21,11 +21,8 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /home/ubuntu/AWS-DevOps-Monitoring-Platform
-
+            git reset --hard HEAD
             git pull origin main
-
             npm install
-
             pm2 restart devops-app || pm2 start app.js --name devops-app
-
             pm2 save
